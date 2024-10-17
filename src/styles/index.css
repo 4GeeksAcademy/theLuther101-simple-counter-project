@@ -1,4 +1,40 @@
-
+.bigCounter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+  }
+  .calandar {
+    font-size: 3rem;
+    margin-right: 20px;
+    color: white;
+  }
+  .fourthDigit, .thirdDigit, .secondDigit, .firstDigit {
+    background-color: black;
+    color: white;
+    padding: 20px;
+    margin: 5px;
+    font-size: 2.5rem;
+    border-radius: 5px; /* Optional for rounded corners */
+    width: 60px; /* Set a width to ensure the boxes are consistent */
+    height: 80px; /* Set a height for the boxes */
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }  
+/* bigCounter div{
+    display:inline-block;
+    font-size: 60px;
+    line-height: 60px;
+    background-color: black;
+    color: white;
+    margin: 5px auto;
+    padding: 10px;
+    }
+    .bigCounter{
+        text-align: center;
+    } */
 /* 
 
     You can write your own styles here...
